@@ -1,0 +1,24 @@
+.table {
+  display: inline-block;
+  width: 100%;
+  padding-top: 40px;
+  &__row {
+    display: block;
+    td {
+      border: 1px solid black;
+      margin: auto;
+      width: 15%;
+      display: inline-block;
+    }
+    th {
+      border: 1px solid black;
+      margin: auto;
+      width: 15%;
+      font-weight: bolder;
+      display: inline-block;
+    }
+    span {
+      padding: 4px;
+    }
+  }
+}

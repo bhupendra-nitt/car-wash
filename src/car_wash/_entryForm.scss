@@ -1,0 +1,11 @@
+.entry-form{
+  margin: 40px;
+  div {
+    display: inline-block;
+    width: 20%;
+  }
+
+  &__update-entry {
+    border: 1px soild #ddd !important;    
+  }
+}
